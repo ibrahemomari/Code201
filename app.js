@@ -1,11 +1,11 @@
 let Qus1 ,Qus2,Qus3,Qus4;
 
-Qus1=prompt("are you ready to take a quiz? (Yes or No ?) ");
+Qus1=prompt("are you ready to take a quiz? (Yes or No ?) , first letter must be upperCase (Yes) ");
 console.log(Qus1);
 
-while(Qus1 !=='yes')
+while(Qus1 !=='Yes')
 {
-    Qus1=prompt("you need to take a quiz sweety , type yes (^_^) ");
+    Qus1=prompt("you need to take a quiz sweety , type Yes (^_^) ");
 }
 
 Qus2=prompt("Ok , First of all , What your name ?");
