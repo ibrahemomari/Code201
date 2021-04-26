@@ -3,7 +3,7 @@ let Qus1 ,Qus2,Qus3,Qus4;
 Qus1=prompt("are you ready to take a quiz? (Yes or No ?) ");
 console.log(Qus1);
 
-while(Qus1 !=='Yes')
+while(Qus1 !=='yes')
 {
     Qus1=prompt("you need to take a quiz sweety , type yes (^_^) ");
 }
